@@ -1,0 +1,85 @@
+.contact{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://image.freepik.com/free-photo/digital-world-map-hologram-blue-background_1379-900.jpg);
+    text-align: center;
+    display: flex;
+    padding: 4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+  .form{
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    background:rgba(0, 0, 0, 0.726);
+    opacity:0.9;
+    padding:1rem 2rem;
+    border-radius: 1rem;
+  }
+  .form>label{
+    margin:.5rem 0 .5rem 1rem;
+    font-weight: bold;
+    color: yellow;
+    letter-spacing: .3rem;
+  }
+  .form input{
+    color:black;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 2rem;
+    outline:rgb(216, 197, 197);
+    border:.2rem solid rgb(216, 204, 204);
+    border-radius: .5rem;
+    padding:.5rem 1rem;
+  }
+  .form h2{
+      padding:3rem;
+  }
+  .form textarea{
+    color:black;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 2rem;
+    outline:rebeccapurple;
+    border:2px solid rgb(189, 183, 183);
+    border-radius: .5rem;
+    padding:.5rem 1rem;
+    height: 10rem;
+  }
+  .form > button {
+    background-color:rgb(54, 141, 212);
+    margin-top:2rem;
+    padding:.5rem 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:white;
+    border-radius: .5rem;
+    outline: none;
+    cursor: pointer;
+  }
+  .form >button:hover{
+    background-color: rgb(94, 141, 212);
+  }
+  .error {
+    color:green
+  }
+  
+  .map{
+    width: 100%;
+  }
+  .form{
+      width: 70%;
+  }
+  .fa-map-marker-alt{
+    color:red;
+    font-size:3rem
+  }
+  @media screen and (max-width:666px){
+    .contact > .overlay{
+        flex-direction: column;
+    }
+    .contact >.overlay,.contact{
+        min-height: 130rem;
+    }
+  }

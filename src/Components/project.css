@@ -1,0 +1,76 @@
+.projects{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://image.freepik.com/free-photo/dramatic-dark-cloud-background_1421-539.jpg);
+    box-sizing: border-box;
+    text-align: center;
+}
+.projects h1{
+    margin-bottom: 2rem;
+
+}
+button{
+    color:#06dfdf;
+    margin:1rem;
+    padding:.5rem 1rem;
+    border-radius: .5rem;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+button.active,button:hover{
+    background:#f6546a;
+}
+.project__container img{
+    width:33rem;
+    height:17rem;
+}
+.project__container{
+    padding:2rem;
+    text-align: center;
+}
+#project{
+    width: 30%;
+    float: left;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    background: rgba(26, 23, 23, 0.453);
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem #000;
+}
+#project > h3 {
+    color: #00c9c8;
+    font-size: 2rem;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: .3rem 0;
+    font-size: 1.4rem;
+}
+.links a:first-child{
+    color:red
+}
+.links a:last-child{
+    color: green
+}
+#project p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width:700px){
+    #project{
+        width:45%
+    }
+    .projects{
+        min-height: 150rem;
+}
+}
+@media screen and (max-width:500px){
+    #project{
+        width:70%;
+        margin-left: 8rem;
+    }
+    .projects{
+        min-height: 270rem;
+}
+}

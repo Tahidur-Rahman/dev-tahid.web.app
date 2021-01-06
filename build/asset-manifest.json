@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.46437efa.chunk.css",
+    "main.js": "/static/js/main.edbeb745.chunk.js",
+    "main.js.map": "/static/js/main.edbeb745.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b62c9b67.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b62c9b67.js.map",
+    "static/js/2.50a4e5b4.chunk.js": "/static/js/2.50a4e5b4.chunk.js",
+    "static/js/2.50a4e5b4.chunk.js.map": "/static/js/2.50a4e5b4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.242af27209f99da971e263f22de5a22f.js": "/precache-manifest.242af27209f99da971e263f22de5a22f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.46437efa.chunk.css.map": "/static/css/main.46437efa.chunk.css.map",
+    "static/js/2.50a4e5b4.chunk.js.LICENSE.txt": "/static/js/2.50a4e5b4.chunk.js.LICENSE.txt",
+    "static/media/Projectstrore.PNG": "/static/media/Projectstrore.99ca5907.PNG",
+    "static/media/facebook.PNG": "/static/media/facebook.03c9e1db.PNG",
+    "static/media/favicon.PNG": "/static/media/favicon.4a2f7250.PNG",
+    "static/media/form.PNG": "/static/media/form.135de14b.PNG",
+    "static/media/messenger.PNG": "/static/media/messenger.fed0c1a1.PNG",
+    "static/media/octapia form.PNG": "/static/media/octapia form.3559d5f4.PNG",
+    "static/media/scroll behaviour.PNG": "/static/media/scroll behaviour.9cc8676a.PNG",
+    "static/media/tahidur.png": "/static/media/tahidur.f6a3d1b6.png",
+    "static/media/tahidur1.PNG": "/static/media/tahidur1.22eda6af.PNG",
+    "static/media/textToBinary.PNG": "/static/media/textToBinary.94a627d1.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b62c9b67.js",
+    "static/js/2.50a4e5b4.chunk.js",
+    "static/css/main.46437efa.chunk.css",
+    "static/js/main.edbeb745.chunk.js"
+  ]
+}

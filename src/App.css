@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Langar', cursive;
+    letter-spacing: .2rem;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.app{
+    position: relative;
+    color:#fff;
+}
+h1{
+    font-size: 3rem;
+}
+
+.home,.about,.skills,.projects,.contact{
+    padding-top: 5rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height:100vh;
+}
+
+
+.service h2{
+    color:#fff
+}
+
+@media screen and (max-width:1280px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width:1140px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media screen and (max-width:960px){
+    html{
+        font-size: 40%;
+    }
+}
+@media screen and (max-width:870px){
+    html{
+        font-size: 35%;
+    }
+}
+@media screen and (max-width:700px){
+    html{
+        font-size: 33%;
+    }
+}
+@media screen and (max-width:610px){
+    html{
+        font-size: 28%;
+    }
+}
+@media screen and (max-width:550px){
+    html{
+        font-size: 25%;
+    }
+}
+@media screen and (max-width:460px){
+    html{
+        font-size: 23%;
+    }
+}
+
+@media screen and (max-width:425px){
+    html{
+        font-size: 20%;
+    }
+}
+@media screen and (max-width:375px){
+    html{
+        font-size: 17%;
+    }
+}

@@ -1,0 +1,30 @@
+.social a {
+  position: fixed;
+  text-decoration: none;
+  color: #fff;
+  background: rgb(26, 23, 23);
+  padding: 1rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  right: -12rem;
+  transition: 0.5s;
+  font-size: 1.5rem;
+}
+.social a > i {
+  margin-right: 1rem;
+}
+.social a:hover {
+  right: 0rem;
+  transform: scale(1.2);
+}
+.social .facebook {
+  bottom: 11rem;
+  right: -9.8rem;
+}
+.social .github {
+  bottom: 6rem;
+  right: -7.4rem;
+}
+.social .linkedin {
+  bottom: 1rem;
+  right: -9rem;
+}

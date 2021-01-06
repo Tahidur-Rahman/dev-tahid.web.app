@@ -1,0 +1,17 @@
+.skills{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://image.freepik.com/free-vector/neon-light-arrow-direction-perspective_1017-22033.jpg);
+    text-align: center;
+}
+.progress__bar{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.progress__bar label{
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 2rem;
+}

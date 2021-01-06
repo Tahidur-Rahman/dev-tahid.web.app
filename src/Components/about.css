@@ -1,0 +1,26 @@
+
+.about{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://image.freepik.com/free-photo/narrow-muddy-road-dark-forest_181624-9675.jpg);
+    text-align: center;
+}
+
+.about h1{
+    color:#00C9C8
+}
+.about__me {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.about__img{
+    position: absolute;
+    width: 85%;
+}
+.about__text{
+    position: absolute;
+    top: 15rem;
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 0 16rem;
+    text-align: justify;
+}
