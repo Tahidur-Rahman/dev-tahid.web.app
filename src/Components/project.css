@@ -20,22 +20,27 @@ button.active,button:hover{
     background:#f6546a;
 }
 .project__container img{
-    width:33rem;
-    height:17rem;
+    width:100%;
+    height: 130px;
 }
 .project__container{
     padding:2rem;
     text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #project{
-    width: 30%;
-    float: left;
+    height: 190px;
+    width:250px;
     margin-right: 3rem;
     margin-bottom: 2rem;
     background: rgba(26, 23, 23, 0.453);
     overflow: hidden;
     border-radius: 1rem;
     box-shadow: 0 1rem 2rem #000;
+
 }
 #project > h3 {
     color: #00c9c8;
@@ -58,19 +63,21 @@ button.active,button:hover{
     margin-bottom: 1rem;
 }
 @media screen and (max-width:700px){
-    #project{
-        width:45%
-    }
+    /* #project{
+        width:50%
+    } */
     .projects{
         min-height: 150rem;
 }
 }
 @media screen and (max-width:500px){
-    #project{
-        width:70%;
-        margin-left: 8rem;
-    }
+    /* #project{
+        width:100%;
+    } */
     .projects{
         min-height: 270rem;
+}
+.project__container{
+    flex-direction: column;
 }
 }

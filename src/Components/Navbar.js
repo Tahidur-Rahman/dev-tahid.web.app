@@ -2,20 +2,14 @@ import React, { useState } from "react";
 import "./navbar.css";
 import "../App.css";
 
-const navigations = [
-  "home",
-  "about",
-  "skills",
-  "projects",
-  "contact",
-];
+const navigations = ["home", "about", "skills", "projects", "contact"];
 
 function Navbar() {
   let prevScroll = window.pageYOffset;
   window.onscroll = () => {
     let currentScroll = window.pageYOffset,
       navbar = document.querySelector(".navbar");
-    navbar.style.top = prevScroll > currentScroll ? 0 : "-9rem";
+    navbar.style.top = prevScroll > currentScroll ? 0 : "-13rem";
     prevScroll = currentScroll;
   };
   const [click, setclick] = useState(false);
@@ -34,11 +28,7 @@ function Navbar() {
       <ul className={click ? "mobile__nav" : "nav"}>
         {navigations.map((item) => {
           return (
-            <a
-              href={`#${item}`}
-              onClick={responsive}
-              key={item}
-            >
+            <a href={`#${item}`} onClick={responsive} key={item}>
               {item.toUpperCase()}
             </a>
           );

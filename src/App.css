@@ -65,22 +65,7 @@ h1{
 }
 @media screen and (max-width:550px){
     html{
-        font-size: 25%;
-    }
-}
-@media screen and (max-width:460px){
-    html{
-        font-size: 23%;
+        font-size: 22%;
     }
 }
 
-@media screen and (max-width:425px){
-    html{
-        font-size: 20%;
-    }
-}
-@media screen and (max-width:375px){
-    html{
-        font-size: 17%;
-    }
-}
